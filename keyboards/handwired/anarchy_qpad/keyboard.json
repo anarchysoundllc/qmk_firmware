@@ -14,7 +14,6 @@
         "cols": ["GP2", "GP29"],
         "rows": ["GP8", "GP6", "GP4"]
     },
-    "url": "",
     "usb": {
         "device_version": "1.0.0",
         "pid": "0x0000",

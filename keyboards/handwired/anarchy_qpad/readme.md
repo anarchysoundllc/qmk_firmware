@@ -2,10 +2,10 @@
 
 ![anarchy_qpad](imgur.com image replace me!)
 
-*A short description of the keyboard/project*
+*This is intended to be a matrix keyboard with mapped midi controls to control QLAB and other audio applications. Meant to be used with Vial to adjust keymaps and functions as needed.*
 
 * Keyboard Maintainer: [Grant Patrick](https://github.com/anarchysoundllc)
-* Hardware Supported: *The PCBs, controllers supported*
+* Hardware Supported: *KB2040 PCB*
 * Hardware Availability: *Links to where you can find this hardware*
 
 Make example for this keyboard (after setting up your build environment):
@@ -14,7 +14,7 @@ Make example for this keyboard (after setting up your build environment):
 
 Flashing example for this keyboard:
 
-    make anarchy_qpad:default:flash
+    Put the KB2040 into bootloader mode by holding the boot button on power up. Copy the uf2 file that was compiled to the drive that appears on your computer. KB2040 will disappear and show up as an HID.
 
 See the [build environment setup](https://docs.qmk.fm/#/getting_started_build_tools) and the [make instructions](https://docs.qmk.fm/#/getting_started_make_guide) for more information. Brand new to QMK? Start with our [Complete Newbs Guide](https://docs.qmk.fm/#/newbs).
 
