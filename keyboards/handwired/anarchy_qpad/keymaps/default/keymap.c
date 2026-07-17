@@ -29,15 +29,8 @@ led_config_t g_led_config = { {
   { 0,  0 }, { 1,  0 }, { 0,  1 }, { 1,  1 }, {  0,  2 }, {  1,  2 }
 }, {
   // LED Index to Flag
-  4, 4, 
-  4, 4, 
-  4, 4
-} };
-/*LED MATRIX LED MAPPING*/
-const is31fl3218_led_t PROGMEM g_is31fl3218_leds[IS31FL3218_LED_COUNT] = {
-/*   V */
-    {OUT1},{OUT2},
-    {OUT3},{OUT4},
-    {OUT5},{OUT6},
-    // etc...
+  0, 0, 
+  0, 0, 
+  0, 0
+}
 };
