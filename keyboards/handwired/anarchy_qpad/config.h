@@ -19,4 +19,4 @@
 #define IS31FL3218_I2C_ADDRESS 0x54
 
 /*Define the total number of LEDs*/
-#define DRIVER_LED_TOTAL 6
+#define LED_COUNT 6
