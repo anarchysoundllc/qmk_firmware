@@ -8,10 +8,11 @@
         "bootmagic": true,
         "extrakey": false,
         "mousekey": false,
-        "nkro": true
+        "nkro": true,
+        "led_matrix": true
     },
     "matrix_pins": {
-        "cols": ["GP2", "GP29"],
+        "cols": ["GP2", "GP26"],
         "rows": ["GP8", "GP6", "GP4"]
     },
     "usb": {
@@ -35,6 +36,9 @@
         "driver": "is31fl3218",
         "max_brightness": 20,
         "sleep": false,
+        "animations":{
+            "breathing": true
+        },
         "layout": [
            {"matrix": [0, 0], "x": 0, "y": 0, "flags": 0},
            {"matrix": [0, 1], "x": 1, "y": 0, "flags": 0},
