@@ -1,6 +1,6 @@
 {
     "manufacturer": "Grant Patrick",
-    "keyboard_name": "anarchy_qpad",
+    "keyboard_name": "Anarchy_QPad",
     "maintainer": "anarchysoundllc",
     "development_board": "kb2040",
     "diode_direction": "COL2ROW",
@@ -16,9 +16,9 @@
         "rows": ["GP8", "GP6", "GP4"]
     },
     "usb": {
-        "device_version": "1.0.0",
-        "pid": "0x0000",
-        "vid": "0xFEED"
+        "device_version": "1.0.5",
+        "pid": "0x0400",
+        "vid": "0x3A3A"
     },
     "layouts": {
         "LAYOUT": {
@@ -34,10 +34,11 @@
     },
     "led_matrix": {
         "driver": "is31fl3218",
-        "max_brightness": 20,
+        "max_brightness": 100,
         "sleep": false,
         "animations":{
-            "breathing": true
+            "breathing": true,
+            "solid": true
         },
         "layout": [
            {"matrix": [0, 0], "x": 0, "y": 0, "flags": 0},
