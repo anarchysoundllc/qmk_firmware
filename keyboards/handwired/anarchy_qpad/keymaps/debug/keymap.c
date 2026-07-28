@@ -14,8 +14,8 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
      * ├───┼───┼
      */
     [0] = LAYOUT(
-        LM_ON,   LM_OFF,
-        LM_PREV,   LM_NEXT,
+        BL_TOGG,   BL_BRTG,
+        BL_STEP,   BL_ON,
         BL_UP,   BL_DOWN
     )
 };
