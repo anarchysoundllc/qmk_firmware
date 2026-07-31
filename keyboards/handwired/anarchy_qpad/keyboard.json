@@ -36,7 +36,6 @@
         "driver": "is31fl3218",
         "max_brightness": 200,
         "animations":{
-            "breathing": true,
             "solid": true
         },
         "layout": [

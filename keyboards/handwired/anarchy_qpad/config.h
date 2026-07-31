@@ -25,12 +25,8 @@
 #define LED_MATRIX_DEFAULT_ON true // Sets the default enabled state, if none has been set
 #define LED_MATRIX_DEFAULT_VAL 100 // Sets the default brightness value, if none has been set
 #define LED_MATRIX_DEFAULT_MODE LED_MATRIX_SOLID // Sets the default mode, if none has been set
-#define LED_MATRIX_DEFAULT_SPD 127 // Sets the default animation speed, if none has been set
 #define LED_MATRIX_VAL_STEP 20 // The value by which to increment the brightness per adjustment action
-#define LED_MATRIX_SPD_STEP 16 // The value by which to increment the animation speed per adjustment action
+#define ENABLE_LED_MATRIX_BREATHTING
 
 /*Define the total number of LEDs*/
 #define LED_MATRIX_LED_COUNT 6
-
-/*Backlight*/
-#define BACKLIGHT_BREATHING
