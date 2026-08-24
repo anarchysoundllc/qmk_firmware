@@ -12,11 +12,11 @@
         "led_matrix": true
     },
     "matrix_pins": {
-        "cols": ["GP2", "GP26"],
-        "rows": ["GP8", "GP6", "GP4"]
+        "cols": ["GP2", "GP3"],
+        "rows": ["GP4", "GP5", "GP6"]
     },
     "usb": {
-        "device_version": "1.0.5",
+        "device_version": "1.0.6",
         "pid": "0x0400",
         "vid": "0x3A3A"
     },
